@@ -1,5 +1,6 @@
 Source: sqlparse
-Maintainer: Andrii Senkovych <andrii@senkovych.com>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Andrii Senkovych <andrii@senkovych.com>
 Uploaders: Debian Python Team <team+python@tracker.debian.org>
 Section: python
 Priority: optional
