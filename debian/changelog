@@ -1,3 +1,12 @@
+sqlparse (0.4.2-1ubuntu0.22.04.2) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: Denial of service
+    - debian/patches/CVE-2024-4340.patch: raise SQLParseError instead
+      of RecursionError in sqlparse/sql.py, tests/test_regressions.py.
+    - CVE-2024-4340
+
+ -- Leonidas Da Silva Barbosa <leo.barbosa@canonical.com>  Wed, 08 May 2024 10:18:32 -0300
+
 sqlparse (0.4.2-1ubuntu0.22.04.1) jammy-security; urgency=medium
 
   * SECURITY UPDATE: ReDoS
